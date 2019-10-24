@@ -6,7 +6,7 @@ class Module:
     def __repr__(self):
         return self.name
 
-modules = [
+brain_modules = [
     Module("Visual"),
     Module("Attention"),
     Module("Frontoparietal control"),

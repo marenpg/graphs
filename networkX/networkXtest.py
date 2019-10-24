@@ -1,21 +1,21 @@
 import networkx as nx
 import matplotlib.pyplot as plt
 
-from tasks import getTasks
-from modules import modules
+from common.tasks import getTasks
+from common.modules import brain_modules
 
 def printGraph(graph):
     nx.draw(graph, with_labels=True)
     plt.show()
     
-def buildGraph(modules, tasks):
+def buildGraph(brain_modules, tasks):
     G = nx.Graph()
-    for module in modules:
+    for module in brain_modules:
         G.add_node(module, name=module.name)
 
     for task in tasks:
         G.add_node(task, task=task.name)
-        for mod in task.modules:
+        for mod in task.brain_modules:
             G.add_edge(task, mod, weight='100')
 
     return G
@@ -23,7 +23,7 @@ def buildGraph(modules, tasks):
 if(__name__ == "__main__"):
     print("Main called")
     tasks = getTasks()
-    graph = buildGraph(modules, tasks)
+    graph = buildGraph(brain_modules, tasks)
     printGraph(graph)
 
 # G = nx.Graph()

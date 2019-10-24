@@ -1,5 +1,5 @@
 import csv, os
-from modules import modules
+from .modules import brain_modules
 
 class Task:
     def __init__(self, name, modules):
