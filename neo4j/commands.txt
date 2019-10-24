@@ -1,0 +1,13 @@
+CREATE (visual:Modules {name: 'Visual'})
+CREATE (attention:Modules {name: 'Attention'})
+CREATE (brailleReading:Task {name: 'Braille reading'})
+CREATE (visualTracking:Task {name: 'Visual tracking'})
+CREATE (actionObservation:Task {name: 'Action observation'})
+CREATE (pictureNaming:Task {name: 'Picture naming '})
+
+CREATE (brailleReading)-[:PART_OF { strength: 100}]->(visual)
+CREATE (visualTracking)-[:PART_OF { strength: 100}]->(visual)
+CREATE (actionObservation)-[:PART_OF { strength: 100}]->(visual)
+CREATE (pictureNaming)-[:PART_OF { strength: 100}]->(visual)
+
+CREATE (brailleReading)-[:PART_OF { strength: 100}]->(attention)
