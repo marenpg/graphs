@@ -7,5 +7,5 @@ setup(name="graphs",
       packages=find_packages(),
       setup_requires=["neo4j"],
       scripts=["common/modules.py", "common/tasks.py", 
-        "networkX/networkXtest.py", "neo4/connector.py"],
+        "networkXtest/networkXtest.py", "neo4jtest/connector.py"],
       zip_safe=False)

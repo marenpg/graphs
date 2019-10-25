@@ -22,7 +22,7 @@ def getTasks():
     return tasks
 
 def _getModule(module_name):
-    return next((x for x in modules if x.name == module_name.strip()), None)
+    return next((x for x in brain_modules if x.name == module_name.strip()), None)
 
 def _getModules(module_names):
     _ = [_getModule(name) if name != "" else None for name in module_names]

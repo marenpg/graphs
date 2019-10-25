@@ -15,7 +15,7 @@ def buildGraph(brain_modules, tasks):
 
     for task in tasks:
         G.add_node(task, task=task.name)
-        for mod in task.brain_modules:
+        for mod in task.modules:
             G.add_edge(task, mod, weight='100')
 
     return G

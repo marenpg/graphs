@@ -17,11 +17,7 @@ MERGE (p2:Person {name:pair[1]})
 MERGE (p1)-[:KNOWS]-(p2);
 '''
 
-data = [["Jim","Mike"],["Jim","Billy"],["Anna","Jim"],
-          ["Anna","Mike"],["Sally","Anna"],["Joe","Sally"],
-          ["Joe","Bob"],["Bob","Sally"]]
-
-session.run(insert_query, parameters={"pairs": data})
+session.run(insert_query)
 
 # Friends of a friend
 
