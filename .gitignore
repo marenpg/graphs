@@ -2,3 +2,4 @@ common/__pycache__
 neo4jtest/__pycache__
 networkXtest/__pycache__
 .eggs
+*/*.pyc
