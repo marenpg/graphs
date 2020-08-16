@@ -1,0 +1,11 @@
+CREATE 
+  (`0` :CellType {id:'string',name:'string',ontology:'string'}) ,
+  (`1` :CellClass {id:'string',name:'string',ontology:'string'}) ,
+  (`2` :Analysis {Name:'string'}) ,
+  (`3` :CellGroup {id:'string',name:'string',ontology:'string'}) ,
+  (`4` :CellPhenotype {id:'string',name:'string',ontology:'string'}) ,
+  (`5` :`Cell Phenotype Category` {id:'string',name:'string'}) ,
+  (`6` :CellularRegion {id:'string',name:'string',ontology:'string'}) ,
+  (`7` :CellDescription {id:'string',description:'string',iri:'string'}) ,
+  (`8` :NeuralStructure {id:'string',name:'string',ontology:'string'}),
+  (`8` :NeuralStructure {id:'string',name:'string',ontology:'string'}),

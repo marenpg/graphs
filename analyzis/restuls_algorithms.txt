@@ -1,0 +1,81 @@
+Centrality:
+{'TYPE': ':CellPhenotypeCategory', 'label': 'Expression', 'name': 'Expression', 'id': '4'} 0.6713566397691174
+{'TYPE': ':CellGroup', 'label': 'Neuron', 'ontology': 'SAO:1417703748', 'name': 'Neuron', 'id': '1'} 0.35630678893180456
+{'TYPE': ':CellClass', 'label': 'Principal neuron', 'ontology': 'ILX:0109349', 'name': 'Principal neuron', 'id': '1'} 0.34049147968786875       
+{'TYPE': ':CellClass', 'label': 'Interneuron', 'ontology': 'NLXCELL:1003113', 'name': 'Interneuron', 'id': '2'} 0.24733699461885764
+{'TYPE': ':CellDescription', 'label': '7498', 'description': 'The basic cellular units of nervous tissue. Neurons are polarized cells with defined regions consisting of the cell body, an axon, and dendrites, although some types of neurons lack axons or dendrites. Their purpose is to receive, conduct, and transmit impulses in the nervous system. Neurons can be classified a number of different ways: anatomical, physiological, and 
+developmental.  Anatomical classes are defined first by the location of the neuron in the nervous system.  Neurons are further distinguished from each other by features which include dendritic and axon morphology.  Anatomical features also include synaptic connectivity (inputs and outputs) and molecular phenotype(the particular neurotransmitters, receptors, and ion channels expressed by a neuron).  Neurons can be classified by their physiological properties.  This includes their general function (Sensory, motor, interneuron).  Functions can also include whether the neuron is a relay neuron or a local interneuron or whether it is involved in sensory processing or correction of motor responses.  Physiological actions can also include the firing properties of the neuron (bursting, tonic, quiescent).  Developmental classifications of neurons are based upon the lineage that the cell derives from.  The number of neurons in a particular class can vary over orders of magnitude from individual neurons 
+in some classes to millions of neurons in other classes.', 'id': '7498', 'iri': 'http://uri.interlex.org/base/ilx_0107497'} 0.2031191419746414  
+{'TYPE': ':CellDescription', 'label': '9350', 'description': 'Neuron whose axon projects out of the region in which the cell soma lies to carry 
+information to another region', 'id': '9350', 'iri': 'http://uri.interlex.org/base/ilx_0109349'} 0.17026120177477214
+{'TYPE': ':CellClass', 'label': 'Mixed class neuron', 'name': 'Mixed class neuron', 'id': '6'} 0.12477052477808745
+{'TYPE': ':CellDescription', 'label': '5665', 'description': 'A neuron whose axonal projections do not leave the anatomical region in which its 
+cell soma lies.', 'id': '5665', 'iri': 'http://uri.neuinfo.org/nif/nifstd/nlx_cell_1003113'} 0.12366732530809585
+{'TYPE': ':Specie', 'label': 'Rattus norvegicus', 'name': 'Rattus norvegicus', 'id': '1'} 0.10563853698012127
+{'TYPE': ':CellClass', 'label': 'Unclassified', 'name': 'Unclassified', 'id': '9'} 0.08995714261041474
+
+Page rank:
+{'TYPE': ':Specie', 'label': 'Rattus norvegicus', 'name': 'Rattus norvegicus', 'id': '1'} 0.02414180021987792
+{'TYPE': ':ExclusionReason', 'label': 'No data of interest', 'reason': 'No data of interest'} 0.016809445773246275
+{'TYPE': ':Specie', 'label': 'Mus musculus', 'name': 'Mus musculus', 'id': '2'} 0.014648200254678553
+{'TYPE': ':CellPhenotypeCategory', 'label': 'Expression', 'name': 'Expression', 'id': '4'} 0.014621982695788164
+{'TYPE': ':ReporterLabel', 'label': 'No label', 'name': 'No label', 'id': '4'} 0.0116323895800997
+{'TYPE': ':Microscope', 'label': '2', 'id': '2', 'type': 'Bright-field microscope'} 0.009803074408476725
+{'TYPE': ':ExclusionReason', 'label': 'No quantitative information', 'reason': 'No quantitative information'} 0.007780518453376797
+{'TYPE': ':SourceOrigin', 'label': 'Brain Research', 'name': 'Brain Research', 'id': '21'} 0.0076324752558400875
+{'TYPE': ':SourceOrigin', 'label': 'Neuroscience', 'name': 'Neuroscience', 'id': '11'} 0.0075871367413765265
+{'TYPE': ':ExclusionReason', 'label': 'Treated animals only', 'reason': 'Treated animals only'} 0.0070912325506273
+
+HITS: Hubs:
+{'TYPE': ':Analysis', 'label': 'Richter_2017_11m_sections_TH_neurons_quantitation', 'shrinkageCorrection': 'No', 'numberOfAnimals': '5', 'name': 'Richter_2017_11m_sections_TH_neurons_quantitation', 'dataType': 'Quantitation', 'id': '383'} 0.002960587524923987
+{'TYPE': ':Analysis', 'label': 'Richter_2017_5w_sections_TH_neurons_quantitation', 'shrinkageCorrection': 'No', 'numberOfAnimals': '5', 'name': 
+'Richter_2017_5w_sections_TH_neurons_quantitation', 'dataType': 'Quantitation', 'id': '387'} 0.002960587524923987
+{'TYPE': ':Analysis', 'label': 'Richter_2017_18m_sections_TH_neurons_quantitation', 'shrinkageCorrection': 'No', 'numberOfAnimals': '7', 'name': 'Richter_2017_18m_sections_TH_neurons_quantitation', 'dataType': 'Quantitation', 'id': '386'} 0.002960541813890438
+{'TYPE': ':Analysis', 'label': 'Richter_2017_pups_sections_TH_neurons_quantitation', 'shrinkageCorrection': 'No', 'numberOfAnimals': '4', 'name': 'Richter_2017_pups_sections_TH_neurons_quantitation', 'dataType': 'Quantitation', 'id': '390'} 0.002960541813890438
+{'TYPE': ':Analysis', 'label': 'Chan_1997_sections_TH_cells_quantitation', 'shrinkageCorrection': 'No', 'numberOfAnimals': '5', 'name': 'Chan_1997_sections_TH_cells_quantitation', 'dataType': 'Quantitation', 'id': '332'} 0.0029012263433353795
+{'TYPE': ':Analysis', 'label': 'Johnson_2010b_rat_sections_TH_neurons_quantitation', 'shrinkageCorrection': 'No', 'numberOfAnimals': '5', 'name': 'Johnson_2010b_rat_sections_TH_neurons_quantitation', 'dataType': 'Quantitation', 'id': '358'} 0.0028943072584198706
+{'TYPE': ':Analysis', 'label': 'Komnig_2016b_sections_TH_neurons_quantitation', 'shrinkageCorrection': 'No', 'numberOfAnimals': '3', 'name': 'Komnig_2016b_sections_TH_neurons_quantitation', 'dataType': 'Quantitation', 'id': '364'} 0.002848168149880407
+{'TYPE': ':Analysis', 'label': 'Komnig_2016_14w_sections_TH_neurons_quantitation', 'shrinkageCorrection': 'No', 'numberOfAnimals': '4', 'name': 
+'Komnig_2016_14w_sections_TH_neurons_quantitation', 'dataType': 'Quantitation', 'id': '362'} 0.0028457655344584815
+{'TYPE': ':Analysis', 'label': 'Kincaid_2001_sections_TH_neurons_quantitation', 'shrinkageCorrection': 'No', 'numberOfAnimals': '6', 'name': 'Kincaid_2001_sections_TH_neurons_quantitation', 'dataType': 'Quantitation', 'id': '361'} 0.0028438340953611412
+{'TYPE': ':Analysis', 'label': 'Komnig_2016_24w_sections_TH_neurons_quantitation', 'shrinkageCorrection': 'No', 'numberOfAnimals': '7', 'name': 
+'Komnig_2016_24w_sections_TH_neurons_quantitation', 'dataType': 'Quantitation', 'id': '363'} 0.0028287808694820336
+
+HITS: Authorities:
+{'TYPE': ':NeuralStructure', 'label': 'Neurons', 'id': '1', 'name': 'Neurons', 'ontology': 'ILX:0107497'} 0.05150880084934497
+{'TYPE': ':TreatmentPurpose', 'label': 'Visualization', 'name': 'Visualization', 'id': '13'} 0.0418072568248137
+{'TYPE': ':VisualizationProtocol', 'label': 'Immunohistochemistry', 'ontology': 'BIRNLEX:2241', 'name': 'Immunohistochemistry', 'id': '1'} 0.03862526187791635
+{'TYPE': ':TreatmentPurpose', 'label': 'Signal amplification', 'name': 'Signal amplification', 'id': '4'} 0.03800952253642559
+{'TYPE': ':TreatmentPurpose', 'label': 'Blocking', 'name': 'Blocking', 'id': '3'} 0.03673863960609586
+{'TYPE': ':CellType', 'label': 'Tyrosine hydroxylase expressing', 'id': '14', 'name': 'Tyrosine hydroxylase expressing'} 0.01876074916072403    
+{'TYPE': ':TreatmentPurpose', 'label': 'Permeabilization', 'name': 'Permeabilization', 'id': '12'} 0.01481894631178249
+{'TYPE': ':TreatmentPurpose', 'label': 'Counterstaining', 'name': 'Counterstaining', 'id': '19'} 0.013478050869928454
+{'TYPE': ':Reporter', 'label': 'Goat anti rabbit_biotin', 'type': 'Antibody, unspecified clonality', 'originSpecie': 'Goat', 'name': 'Goat anti 
+rabbit_biotin', 'id': '167'} 0.009275196561868112
+{'TYPE': ':CellType', 'label': 'Neuron', 'id': '42', 'name': 'Neuron', 'ontology': 'ILX:0107497'} 0.009173615773744176
+
+Closeness centrality:
+{'TYPE': ':CellType', 'label': 'Neuron', 'id': '42', 'name': 'Neuron', 'ontology': 'ILX:0107497'} 0.08723273929791052
+{'TYPE': ':Specie', 'label': 'Rattus norvegicus', 'name': 'Rattus norvegicus', 'id': '1'} 0.08659971886051321
+{'TYPE': ':ExclusionReason', 'label': 'No data of interest', 'reason': 'No data of interest'} 0.07912754303599374
+{'TYPE': ':Specie', 'label': 'Mus musculus', 'name': 'Mus musculus', 'id': '2'} 0.07658088680899164
+{'TYPE': ':CellType', 'label': 'Tyrosine hydroxylase expressing', 'id': '14', 'name': 'Tyrosine hydroxylase expressing'} 0.0737965783981245     
+{'TYPE': ':CellType', 'label': 'Parvalbumin expressing', 'name': 'Parvalbumin expressing', 'id': '37'} 0.07128956447663973
+{'TYPE': ':CellType', 'label': 'Somatostatin expressing', 'name': 'Somatostatin expressing', 'id': '38'} 0.06959916027915045
+{'TYPE': ':CellDescription', 'label': '7498', 'description': 'The basic cellular units of nervous tissue. Neurons are polarized cells with defined regions consisting of the cell body, an axon, and dendrites, although some types of neurons lack axons or dendrites. Their purpose is to receive, conduct, and transmit impulses in the nervous system. Neurons can be classified a number of different ways: anatomical, physiological, and 
+developmental.  Anatomical classes are defined first by the location of the neuron in the nervous system.  Neurons are further distinguished from each other by features which include dendritic and axon morphology.  Anatomical features also include synaptic connectivity (inputs and outputs) and molecular phenotype(the particular neurotransmitters, receptors, and ion channels expressed by a neuron).  Neurons can be classified by their physiological properties.  This includes their general function (Sensory, motor, interneuron).  Functions can also include whether the neuron is a relay neuron or a local interneuron or whether it is involved in sensory processing or correction of motor responses.  Physiological actions can also include the firing properties of the neuron (bursting, tonic, quiescent).  Developmental classifications of neurons are based upon the lineage that the cell derives from.  The number of neurons in a particular class can vary over orders of magnitude from individual neurons 
+in some classes to millions of neurons in other classes.', 'id': '7498', 'iri': 'http://uri.interlex.org/base/ilx_0107497'} 0.06575225509834977 
+{'TYPE': ':CellPhenotype', 'label': 'Nissl', 'name': 'Nissl', 'id': '82'} 0.06507977428317722
+{'TYPE': ':CellClass', 'label': 'Principal neuron', 'ontology': 'ILX:0109349', 'name': 'Principal neuron', 'id': '1'} 0.06469115671550683       
+
+Betweenness centrality:
+{'TYPE': ':BrainRegion', 'label': 'Caudoputamen', 'name': 'Caudoputamen', 'id': '1'} 0.0010005087836443243
+{'TYPE': ':NeuralStructure', 'label': 'Neurons', 'id': '1', 'name': 'Neurons', 'ontology': 'ILX:0107497'} 0.0006794504090212554
+{'TYPE': ':BrainRegion', 'label': 'Caudoputamen', 'name': 'Caudoputamen', 'id': '2'} 0.0004771933255033256
+{'TYPE': ':BrainRegion', 'label': 'Striatum', 'name': 'Striatum', 'id': '24'} 0.0002762192942691902
+{'TYPE': ':BrainRegion', 'label': 'Pars compacta', 'name': 'Pars compacta', 'id': '10'} 0.0002300911161787034
+{'TYPE': ':RegionZone', 'label': 'Rostral', 'name': 'Rostral', 'id': '15'} 0.00021507620237629029
+{'TYPE': ':CellType', 'label': 'Neuron', 'id': '42', 'name': 'Neuron', 'ontology': 'ILX:0107497'} 0.00019370101473734427
+{'TYPE': ':BrainRegion', 'label': 'Substantia nigra compact part', 'id': '8', 'name': 'Substantia nigra compact part'} 0.00017434125274495266   
+{'TYPE': ':BrainRegion', 'label': 'Accumbens nucleus', 'name': 'Accumbens nucleus', 'id': '3'} 0.00016890685349729828
+{'TYPE': ':BrainRegion', 'label': 'Substantia nigra', 'name': 'Substantia nigra', 'id': '25'} 0.00013093325810225324
